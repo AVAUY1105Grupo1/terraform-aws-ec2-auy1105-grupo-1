@@ -1,0 +1,12 @@
+# Excluir directorios ocultos de Terraform
+.terraform/
+
+# Excluir archivos de estado
+*.tfstate
+*.tfstate.*
+crash.log
+
+# CRITICO: Excluir estrictamente cualquier clave privada generada para evitar brechas de seguridad
+*.pem
+*.rsa
+*.key
