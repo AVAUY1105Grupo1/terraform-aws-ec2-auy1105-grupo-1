@@ -8,8 +8,13 @@ Esta carpeta provee una guía práctica para instanciar de forma aislada el mód
    ```bash
    cd examples/despliegue_instancia
 2. Ejecuta los comandos habituales:
+```
 terraform init
+```
+```
 terraform plan
+```
+```
 terraform apply
-
+```
 (Nota: Al destruir la infraestructura con terraform destroy, recuerda eliminar manualmente el archivo .pem generado localmente si ya no lo necesitas).
